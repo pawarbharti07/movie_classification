@@ -7,9 +7,9 @@ from tensorflow.keras.models import load_model
 # Load Model and Files
 # ==========================
 
-model = load_model(r"C:/Users/admin/Downloads/movie_success_ann.keras")
-scaler = joblib.load(r"C:/Users/admin/Downloads/scaler.pkl")
-encoder = joblib.load(r"C:/Users/admin/Downloads/genre_encoder.pkl")
+model = load_model("movie_success_ann.keras")
+scaler = joblib.load("scaler.pkl")
+encoder = joblib.load("genre_encoder.pkl")
 
 # ==========================
 # Streamlit Page
