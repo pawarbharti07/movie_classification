@@ -17,7 +17,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
-df = pd.read_csv("/content/movie_metadata.csv")
+df = pd.read_csv("movie_metadata.csv")
 df.head()
 
 df.info()
